@@ -1,9 +1,17 @@
-# Hcode-php
-This is the php course. Hcode PHP - complete course.
-Este é um curso de PHP. Curso completo da Hcode.
+# Hcode - PHP 7´s Course.
 
-The exercises are all commented.
+Hcode - The complete PHP course.
+The examples here are from the lessons. 
+You can see more about here: https://hcode.com.br/cursos/PHP7.
+All exercises are commented.
+
+
+# Hcode - Curso de PHP 7.
+
+Hcode - Curso completo de PHP 7.
+Os exemplos postados aqui são referente às lições do curso.
+Mais informações aqui: https://hcode.com.br/cursos/PHP7
 Os exercícios são comentados.
 
-The 1-variables.php file is about variables, how to use them, types, etc.
-O arquivo 1-variables.php é sobre as variáveis, como usar, tipos, etc.
+
+
