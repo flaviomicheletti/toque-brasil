@@ -1,17 +1,15 @@
-# Hcode - PHP 7´s Course.
+# Toque Brasil Musical Instruments Web Store
 
-Hcode - The complete PHP course.
-The examples here are from the lessons. 
-You can see more about here: https://hcode.com.br/cursos/PHP7.
-All exercises are commented.
+This is my first project - Web Store.
+Musical Instruments for sale, new and used gear.
 
 
-# Hcode - Curso de PHP 7.
+# Toque Brasil Instrumentos Musicais
 
-Hcode - Curso completo de PHP 7.
-Os exemplos postados aqui são referente às lições do curso.
-Mais informações aqui: https://hcode.com.br/cursos/PHP7
-Os exercícios são comentados.
+Este é meu primeiro projeto - Web Store.
+Venda de Instrumentos Musicais e acessórios em geral, novos e usados.
+
+
 
 
 
