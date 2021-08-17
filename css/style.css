@@ -37,16 +37,14 @@ i{
     opacity: 1;
     color: #fff;
     font-weight: 500;
-    text-shadow:     0 1px 0 rgb(0, 0, 0),
-                       0 2px 0 hsl(174,5%,75%),
-                       0 3px 0 hsl(174,5%,70%),
-                       0 4px 0 hsl(174,5%,66%),
-                       0 5px 0 rgb(0, 85, 75),
-                      
-      
-                       0 0 5px rgba(0,0,0, .05),
-                      0 1px 3px rgba(0,0,0,.1),
-                      0 3px 5px rgba(0,0,0,.15);  
+    /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6),
+                 0 2px 0 hsl(174,5%,65%),
+                 0 3px 0 hsl(174,5%,40%),
+                 0 4px 0 hsl(174,5%,20%),
+                            
+                 0 0 5px rgba(0,0,0, .03),
+                 0 1px 3px rgba(0,0,0,.06),
+                 0 3px 5px rgba(0,0,0,.09);   */
     cursor: pointer;
     transform: scale(1.1);
     transition-duration: .8s;
@@ -60,7 +58,7 @@ i{
 }
 .top-container{
     padding: 0 50px;;
-    background-color: rgb(0, 131, 0); 
+    background: linear-gradient(135deg, rgb(0, 70, 0), rgb(0, 159, 0), rgb(0, 70, 0) );
 }
 .top-info{
     margin: 0 auto;
@@ -79,7 +77,42 @@ i{
     place-items: center;
     grid-gap: 10px;
     color: #ccc;
-    
+    transition: all 0.6s ease;
+}
+.info-pira{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    padding: 5px 15px;
+    transform: translateX(-40px);
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgb(0, 143, 0), rgb(0, 70, 0) );
+    box-shadow: 
+        2px 2px 2px 2px rgba(0, 0, 0, 0.3),
+        5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.9s ease;
+    color: #fff;
+}
+.info-pira i{
+    font-size: 1.4rem;
+    padding: 0 10px;
+}
+.brother:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.brother:hover ~ .info-pira{
+    opacity: 1;
+}
+
+.top-item .fa-whatsapp, .fa-map-marker-alt{
+    transition: all 0.6s ease;
+}
+.top-item .fa-whatsapp:hover, .fa-map-marker-alt:hover{
+    color: #fff;
 }
 .top-item > a{
     color: #ccc;
