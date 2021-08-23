@@ -166,6 +166,9 @@ i{
     justify-content: space-between;
     align-items: center;
 }
+.search{
+    
+}
 .search-main {
     background-color:  rgb(253, 253, 253);
     border-radius:10px;
@@ -173,6 +176,9 @@ i{
     width: 400px;
     display: flex;
     align-items: center;
+    /* border: 1px solid white; */
+    box-shadow:3px 3px 5px 0px rgba(0, 0, 0, 0.7) inset;
+
 }
 .search-main .button-search-main{
     background: none!important;
