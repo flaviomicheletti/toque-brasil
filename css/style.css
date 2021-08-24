@@ -177,7 +177,9 @@ i{
     display: flex;
     align-items: center;
     /* border: 1px solid white; */
-    box-shadow:3px 3px 5px 0px rgba(0, 0, 0, 0.7) inset;
+    box-shadow:
+        3px 3px 5px 0px rgba(0, 0, 0, 0.7) inset,
+        -3px 0px 5px 0px rgba(0, 0, 0, 0.3) inset;
 
 }
 .search-main .button-search-main{
@@ -301,6 +303,7 @@ nav{
     width: 1280px;
     overflow: hidden;
     position: relative;
+    /* border: 1px solid black; */
 }
 #slider .div-img{
     opacity: 0;
@@ -318,8 +321,11 @@ nav{
 .slide-info{
     position: absolute;
     padding: 0 50px;
+    display: block;
+    /* height: 265px; */
     top: 50px;
     right: 0;
+    line-height: 1;
     color: #333;
     /* border: 1px solid black; */
 }
@@ -327,13 +333,23 @@ nav{
     color: #098505;
 }
 .slide-sub-detail{
-    position: absolute;
-    top: 35px;
+    /* position: absolute;
+    top: 35px; */
+}
+.line-through{
+    text-decoration: line-through;
+}
+.slide-good-price{
+    padding: 0 5px;
+    font-size: 1.1rem;
+    background: rgb(3, 110, 216);
+    border-radius: 5px;
+    color: #fff;
 }
 .slide-shop{
     border: none;
     color: white;
-    background: linear-gradient(180deg, rgb(0, 143, 0), rgb(0, 70, 0) );  
+    background: linear-gradient(180deg, rgb(0, 143, 0), rgb(0, 70, 0));  
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -342,7 +358,19 @@ nav{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    transition: all .6s ease;
+}
+.slide-shop:hover{
+    background: linear-gradient(
+        180deg,
+      rgb(0, 143, 0),
+      rgb(0, 143, 0),
+      rgb(0, 99, 0),
+      rgb(0, 70, 0),
+      rgb(0, 60, 0) 
+    );  
+    color: #ccc;
 }
 /* Content */
 .content{
