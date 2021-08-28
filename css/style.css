@@ -328,6 +328,7 @@ nav{
     right: 0;
     line-height: 1;
     color: #333;
+    max-width: 380px;
     /* border: 1px solid black; */
 }
 .slide-detail{
@@ -443,7 +444,7 @@ nav{
     font-size: .9rem;
 }
 .categories ul li{
-    border-top: 1px solid rgba(204, 204, 204, .3);
+    border-top: 1px solid rgba(204, 204, 204, .1);
 }
 
 /* Footer column */
@@ -466,7 +467,7 @@ nav{
     display: flex;
     align-items: center;
     height: 3rem;
-    border-top: 1px solid rgba(204, 204, 204, .3);
+    border-top: 1px solid rgba(204, 204, 204, .1);
 }
 .footer-column a{
     display: flex;
